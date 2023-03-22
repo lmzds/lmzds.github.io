@@ -14,3 +14,4 @@ order: 4
 
 [八云虹](https://www.bayunhong.top )
 
+[Xmtlz的划水日记](https://www.teamon.fun/)
