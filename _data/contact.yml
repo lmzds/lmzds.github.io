@@ -18,7 +18,7 @@
 -
   type: WX
   icon: 'fab fa-weixin'   # icons powered by <https://fontawesome.com/>
-  url:  '/wx.jpg'                  # Fill with your mastodon account page
+  url:  '/assets/img/wx.jpg'                  # Fill with your mastodon account page
   noblank: true            # open link in current tab
 
 # Uncomment and complete the url below to enable more contact options
