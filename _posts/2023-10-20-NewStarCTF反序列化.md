@@ -86,15 +86,15 @@ class WhiteGod{
 
 ### 利用链思考
 
- ($this->func)($this->var);    这里会进行命令执行，就可以倒推，寻找构造链
+` ($this->func)($this->var);`    这里会进行命令执行，就可以倒推，寻找构造链
 
-__unset 魔法函数，当 unset() 访问了没有的属性是调用，只有 CTF 类有unset 也肯定是通过这里了。
+`__unset `魔法函数，当 `unset()` 访问了没有的属性是调用，只有 CTF 类有unset 也肯定是通过这里了。
 
-CTF 类的 end 函数，需要被调用执行才能执行到 unset，要寻找 调用 end 方法的代码。可以看到 Handle 类的 __call 函数有end() 函数的调用。
+CTF 类的 end 函数，需要被调用执行才能执行到 unset，要寻找 调用 end 方法的代码。可以看到 Handle 类的` __call `函数有end() 函数的调用。
 
 之后，`__call` 当不存在或者不能访问的方法去调用的时候自动运行；Super 类的 `__invoke` 函数的 getStr() 函数 是 Handle 类 里面没有的。
 
-现在要去 Super 类 `__invoke()` ，当对象当函数调用的时候出发 invoke()。只用 ($this->func)(); 这个符合，它在Then类的 `__toString`
+现在要去 Super 类 `__invoke()` ，当对象当函数调用的时候出发 `invoke()`。只用` ($this->func)(); `这个符合，它在Then类的 `__toString`
 
 函数里面。
 
@@ -268,7 +268,7 @@ if(isset($_POST['payload'])){
 
 exec 命令执行没有回显，我们只能尽力去 进行保存文件，但是这里 过滤 了 `<> .` 我们很难直接去保存文件
 
-好在 linux 在 命令里面插入 \ 也能执行，我们可以用此方法来进行命令执行，保存文件，注入代码。
+好在 linux 在 命令里面插入 `\` 也能执行，我们可以用此方法来进行命令执行，保存文件，注入代码。
 
 
 
