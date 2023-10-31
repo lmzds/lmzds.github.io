@@ -28,7 +28,7 @@ description: >-                        # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 # url: 'https://lmzds.github.io'
-url: 'https://lmzds.top'
+url: 'https://lmds.top/'
 plugins:
   - jekyll-sitemap
 
