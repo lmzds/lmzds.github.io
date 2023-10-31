@@ -27,7 +27,8 @@ description: >-                        # used by seo meta and the atom feed
   The world is a fine place and worth fighting for.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://lmzds.github.io'
+# url: 'https://lmzds.github.io'
+url: 'https://lmzds.top'
 plugins:
   - jekyll-sitemap
 
