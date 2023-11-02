@@ -8,7 +8,7 @@ img_path: /assets/images/
 
 
 
-通过提示得到账号密码
+通过第三周流量分析题和题目给的源代码得到
 
 best_admin
 so_hard_password
