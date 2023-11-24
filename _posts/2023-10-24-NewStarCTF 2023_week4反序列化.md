@@ -92,7 +92,7 @@ echo serialize(new GlobalGetFlag());
 
 
 
-## More Fast
+## More Fast（Exception绕过）
 
 ```php
 <?php
@@ -231,7 +231,7 @@ $e->errMsg = $d;
 
 
 $payload = serialize(array($e, null));
-$payload = str_replace(':1;', ':0;', $payload);
+$payload = str_replace('i:1;N;}', 'i:0;N;}', $payload);
 echo $payload;
 ```
 
