@@ -15,3 +15,5 @@ order: 4
 [八云虹](https://www.bayunhong.top )
 
 [Xmtlz的划水日记](https://www.teamon.fun/)
+
+[懒事屋](https://ataida.us.kg/)
