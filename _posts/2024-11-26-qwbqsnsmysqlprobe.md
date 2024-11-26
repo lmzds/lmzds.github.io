@@ -103,6 +103,8 @@ O:5:"Mysql":7:{s:5:"debug";i:1;s:8:"database";s:6:"test01";s:8:"hostname";s:9:"1
 
 O:5:"Mysql":7:{s:5:"debug";i:1;s:8:"database";s:6:"test01";s:8:"hostname";s:9:"127.0.0.1";s:4:"port";i:3306;s:7:"charset";s:4:"utf8";s:8:"username";s:8:"";s:8:"password";s:33:"";s:8:"password";s:8:"password";}";}
 
+第一个password成了username变量的值了
+
 那我们就可以计算一下长度
 
 ```
