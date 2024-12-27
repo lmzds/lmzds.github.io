@@ -7,7 +7,7 @@ tags: [python]
 
 
 
-### 数据报文
+### 题库报文
 
 ```
 POST /school/school/exam/library/getExamLibraryQuestionList HTTP/2
@@ -174,7 +174,7 @@ if __name__ == "__main__":
     wmd = WMD()
 
     getID()
-    # getData("[题库id]")
+    # getData("--[题库id]--")
     # wmd.endcl("理论题库")
     
 ```
