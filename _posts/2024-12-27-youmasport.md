@@ -5,23 +5,6 @@ categories: [Python,Crawler]
 tags: [python]
 ---
 
-
-
-### 题库报文
-
-```
-POST /school/school/exam/library/getExamLibraryQuestionList HTTP/2
-Host: hwy.328ym.com
-Systemtype: android
-Content-Type: application/x-www-form-urlencoded
-Accept-Encoding: gzip, deflate
-User-Agent: okhttp/4.2.2
-
-examLibraryId=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx&token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-题库返回是 json 格式，可以直接读取转成word。
-
 ### 脚本
 
 ```python
@@ -179,5 +162,3 @@ if __name__ == "__main__":
     
 ```
 
-通过网盘分享的文件：宥马题库
-链接: https://pan.baidu.com/s/1wtWJjE19fM1nRi1ltDR8fQ?pwd=ts4g 提取码: ts4g
