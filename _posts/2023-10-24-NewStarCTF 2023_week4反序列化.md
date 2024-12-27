@@ -3,7 +3,7 @@ title: NewStarCTF2023 week4 反序列化记录
 date: 2023-10-24 11:36 +0800
 categories: [CTF,WEB]
 tags: [反序列化,web]
-img_path: /assets/images/
+media_subpath: /assets/images/
 ---
 
 

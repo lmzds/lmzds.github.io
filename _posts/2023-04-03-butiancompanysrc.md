@@ -3,7 +3,7 @@ title: 补天公益src名单爬取
 date: 2023-04-03 10:42 +0800
 categories: [Python,Crawler]
 tags: [xhs,python,butian]
-img_path: /assets/images/butiancompanysrc.assets
+media_subpath: /assets/images/butiancompanysrc.assets
 ---
 
 

@@ -3,7 +3,7 @@ title: NewStarCTF2023 week5 web前两题
 date: 2023-10-30 16:48 +0800
 categories: [CTF,WEB]
 tags: [web]
-img_path: /assets/images/
+media_subpath: /assets/images/
 ---
 
 

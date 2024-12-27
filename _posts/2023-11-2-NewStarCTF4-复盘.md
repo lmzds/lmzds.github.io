@@ -3,7 +3,7 @@ title: NewStarCTF2023 week5 web 4-复盘
 date: 2023-11-2 16:17 +0800
 categories: [CTF,WEB]
 tags: [web]
-img_path: /assets/images/
+media_subpath: /assets/images/
 ---
 
 
