@@ -3,8 +3,13 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+  type: WX
+  icon: 'fab fa-weixin'   # icons powered by <https://fontawesome.com/>
+  url:  '/assets/img/wx.jpg'                  # Fill with your mastodon account page
+  noblank: true  
 
 - type: email
   icon: "fas fa-envelope"
