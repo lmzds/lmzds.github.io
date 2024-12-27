@@ -5,6 +5,28 @@ categories: [Python,Crawler]
 tags: [python]
 ---
 
+
+
+### 报文
+
+```
+POST /school/school/exam/library/getExamLibraryQuestionList HTTP/2
+Host: hwy.328ym.com
+Systemtype: android
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 85
+Accept-Encoding: gzip, deflate
+User-Agent: okhttp/4.2.2
+
+examLibraryId=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+返回的数据是 json 格式，直接转成 word
+
+
+
+
+
 ### 脚本
 
 ```python
