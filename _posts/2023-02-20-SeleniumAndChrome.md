@@ -3,7 +3,7 @@ title: selenuim自动化调用Chrome的两种方法
 date: 2023-02-23 23:33 +0800
 categories: [Python,Crawler]
 tags: [selenium,chrome]
-media_subpath: /assets/images/SeleniumAndChrome.assets
+media_subpath: /assets
 ---
 
 

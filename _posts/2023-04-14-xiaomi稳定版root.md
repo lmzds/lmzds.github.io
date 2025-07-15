@@ -3,7 +3,7 @@ title: 小米手机稳定版root
 date: 2023-04-14 19:00 +0800
 categories: [SRC,MiFlash]
 tags: [稳定版,root]
-media_subpath: /assets/images/xiaomi稳定版root.assets
+media_subpath: /assets
 ---
 
 小米手机在原生稳定版的情况下，获取root权限。

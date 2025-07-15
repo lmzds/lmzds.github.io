@@ -3,7 +3,7 @@ title: 强网杯青少年赛mysqlprobe反序列化复现
 date: 2024-11-26 10:25 +0800
 categories: [CTF,WEB]
 tags: [反序列化]
-media_subpath: /assets/images/
+media_subpath: /
 ---
 
 
@@ -114,7 +114,7 @@ flagflagflagflagflagflag
 
 我这里缺了一个字符，我的payload里面多加了一个空格
 
-![cf3886b2dcf13cb9fa867511b36b16e](qwbqsnsmysqlprobe.assets/cf3886b2dcf13cb9fa867511b36b16e.png)
+![cf3886b2dcf13cb9fa867511b36b16e](assets/cf3886b2dcf13cb9fa867511b36b16e.png)
 
 ### 测试代码
 
@@ -200,7 +200,7 @@ echo($mysqlser);
 unserialize($mysqlser);
 ```
 
-![image-20241126102005035](qwbqsnsmysqlprobe.assets/image-20241126102005035.png)
+![image-20241126102005035](assets/image-20241126102005035.png)
 
 
 
