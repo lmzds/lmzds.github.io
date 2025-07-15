@@ -69,9 +69,9 @@ else{
 
 非预期可以直接命令执行，获取flag
 
-![Unserialize Again_非预期exp](Unserialize Again_非预期exp.jpg)
+![Unserialize Again_非预期exp](assets/Unserialize Again_非预期exp.jpg)
 
-![Unserialize Again_非预期结果](Unserialize Again_非预期结果.jpg)
+![Unserialize Again_非预期结果](assets/Unserialize Again_非预期结果.jpg)
 
 
 
