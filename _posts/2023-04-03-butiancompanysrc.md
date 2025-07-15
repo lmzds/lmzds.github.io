@@ -3,7 +3,7 @@ title: 补天公益src名单爬取
 date: 2023-04-03 10:42 +0800
 categories: [Python,Crawler]
 tags: [xhs,python,butian]
-media_subpath: /assets
+media_subpath: /
 ---
 
 
@@ -30,4 +30,4 @@ for i in range(1,192+1):
     main(i)
 ```
 
-![image-20230403104345136](image-20230403104345136.png)
+![image-20230403104345136](assets/image-20230403104345136.png)

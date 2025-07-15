@@ -3,7 +3,7 @@ title: selenuim自动化调用Chrome的两种方法
 date: 2023-02-23 23:33 +0800
 categories: [Python,Crawler]
 tags: [selenium,chrome]
-media_subpath: /assets
+media_subpath: /
 ---
 
 
@@ -24,7 +24,7 @@ pip3 install selenium
 
 https://www.google.com/chrome/
 
-![image-20230320121950211](image-20230320121950211.png)
+![image-20230320121950211](assets/image-20230320121950211.png)
 
 
 
@@ -34,7 +34,7 @@ https://www.google.com/chrome/
 
 地址框输入：chrome://settings/help，确定自己的程序版本。
 
-![image-20230320122810345](image-20230320122810345.png)
+![image-20230320122810345](assets/image-20230320122810345.png)
 
 可以确定版本为 111.0.5563
 
@@ -44,11 +44,11 @@ https://www.google.com/chrome/
 
 最后两位数字选择 和你版本最接近的。
 
-![image-20230320123817699](image-20230320123817699.png)
+![image-20230320123817699](assets/image-20230320123817699.png)
 
 下载 windows 版本
 
-![image-20230320124141724](image-20230320124141724.png)
+![image-20230320124141724](assets/image-20230320124141724.png)
 
 解压到脚本路径即可。
 
@@ -73,7 +73,7 @@ driver.get(url)
 
 创建一个快捷方式
 
-![image-20230320160119659](image-20230320160119659.png)
+![image-20230320160119659](assets/image-20230320160119659.png)
 
 如果为用户安装，要修改自己的chrome.exe路径
 

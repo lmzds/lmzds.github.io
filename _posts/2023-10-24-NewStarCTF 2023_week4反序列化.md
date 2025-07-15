@@ -3,7 +3,7 @@ title: NewStarCTF2023 week4 反序列化记录
 date: 2023-10-24 11:36 +0800
 categories: [CTF,WEB]
 tags: [反序列化,web]
-media_subpath: /assets
+media_subpath: /
 ---
 
 
@@ -49,7 +49,7 @@ O:7:"GetFlag":2:{s:3:"key";s:4:"test";s:3:"cmd";s:6:"whoami";}
 
 如下面的图，经过waf后，第四段就不在反序列化的范围内了。
 
-![image-20231024093431830](image-20231024093431830.png)
+![image-20231024093431830](assets/image-20231024093431830.png)
 
 
 
@@ -67,7 +67,7 @@ echo $key;
 
 我们简单的理解一下，就可以写成一个 payload 生成器。
 
-![image-20231024094642983](image-20231024094642983.png)
+![image-20231024094642983](assets/image-20231024094642983.png)
 
 注：
 
@@ -237,8 +237,8 @@ echo $payload;
 
 
 
-![image-20231024112410706](image-20231024112410706.png)
+![image-20231024112410706](assets/image-20231024112410706.png)
 
 
 
-![image-20231024112832877](image-20231024112832877.png)
+![image-20231024112832877](assets/image-20231024112832877.png)
