@@ -1,5 +1,5 @@
 ---
-title: 学校宥马运动题库爬取
+title: 宥马运动题库爬虫
 date: 2024-12-27 11:25 +0800
 categories: [Python,Crawler]
 tags: [python]
